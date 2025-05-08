@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Citadel Guild Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loading-screen">
+    <img src="images/loading.jpg" alt="Loading…" id="loading-img">
+  </div>
+
+  <div id="quiz-container" class="hidden">
+    <!-- Question screens will be injected here -->
+  </div>
+
+  <div id="result-container" class="hidden">
+    <h2 id="result-title"></h2>
+    <img id="result-img" alt="">
+    <p id="result-desc"></p>
+    <button onclick="window.location.reload()">Retake Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
